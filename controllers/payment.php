@@ -4,7 +4,7 @@ require_once('payment-desc.php');
 
 class PaymentMethod extends PaymentDesc
 {
-    protected $paymendHeading = "<h1>These are the available payment method</h1>";
+    protected $paymendHeading = "<h1>These are the available payment methods</h1>";
     protected $paymentEnding = "<h1>END OF CLASSES</h1>";
 
     function __construct()
